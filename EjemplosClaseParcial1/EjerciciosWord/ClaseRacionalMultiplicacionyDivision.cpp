@@ -80,7 +80,7 @@ int main() {
         if (opcion == 'a' || opcion == 'b') {
             int num1, den1, num2, den2;
 
-            std::cout << "Ingrese la primera fraccion (num1/den1): ";
+            std::cout << "Ingrese la primera fraccion (num1/den1) No escribir / : ";
             if (!(std::cin >> num1 >> den1) || den1 == 0) {
                 std::cout << "Ingrese valores numericos validos y un denominador no nulo.\n";
                 std::cin.clear();
